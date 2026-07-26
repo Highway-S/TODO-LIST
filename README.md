@@ -47,19 +47,3 @@ src/
 | บันทึกข้อมูลลง Local Storage อัตโนมัติ | `hooks/useLocalStorage.ts` |
 
 ---
-
-## วิธี Deploy
-
-**GitHub**
-```bash
-git init
-git add .
-git commit -m "first commit"
-git remote add origin https://github.com/<username>/todo-list.git
-git push -u origin main
-```
-
-**Vercel**
-1. ไปที่ [vercel.com](https://vercel.com)
-2. เชื่อมต่อ GitHub และเลือก repo นี้
-3. กด Deploy
